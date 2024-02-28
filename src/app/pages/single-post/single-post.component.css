@@ -1,0 +1,20 @@
+.single-post-card {
+  padding-top: 5em;
+  margin: 10em;
+  text-align: center;
+  border-color: grey;
+}
+
+img {
+  width: 100%
+}
+
+h1 {
+  padding-top: 0.6em;
+}
+
+p {
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+}

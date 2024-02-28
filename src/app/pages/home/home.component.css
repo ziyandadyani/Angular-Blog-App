@@ -1,0 +1,91 @@
+.featured-section {
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-bottom: 130px;
+
+  background-color: var(--primary-color);
+  margin-top: 0%;
+  border-radius: 0%;
+}
+
+.hero_section {
+  margin-top: 0%;
+  height: 1100px;
+  background: url('https://sandclock.madebyburo.com/_nuxt/image/614840.jpg');
+  background-size: 100vw 1100px;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  padding: 0%;
+  z-index: -1;
+}
+
+.arrow {
+  width: 8vw;
+  position: absolute;
+  left: 80%;
+  top: 40%;
+  animation: moveArrow 3s alternate-reverse;
+  animation-iteration-count: infinite;
+}
+
+h1 {
+  font-size: 5em;
+  color: var(--primary-color);
+  padding-top: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+h3 {
+  font-size: 2em;
+  color: var(--primary-color);
+  line-height: 40pt;
+  margin-left: 5em;
+  padding-top: 2em;
+
+}
+
+span {
+  color: var(--green-color);
+}
+
+
+@keyframes moveArrow {
+  from {
+    transform: translateY(-40px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+.row {
+  padding-top: 2em;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.h2-postcard {
+  font-size: 12pt;
+}
+
+.get_started_btn {
+  width: 200px;
+  height: 60px;
+  border: none;
+  background-color: #34B482;
+  color: var(--primary-color);
+  border-radius: 15px;
+  position: absolute;
+  margin-left: 13em;
+  margin-top: 16em;
+
+
+}
+
+button:hover {
+  background-color: var(--primary-color);
+  color: var(--green-color)
+}

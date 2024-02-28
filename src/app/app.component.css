@@ -1,0 +1,21 @@
+.app-body {
+  min-height: 85vh;
+  margin-top: 150px;
+}
+
+.justify-content-centre {
+  display: flex;
+  align-self: center;
+  background-color: black;
+}
+
+app-subscription-form {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  border: none;
+}
